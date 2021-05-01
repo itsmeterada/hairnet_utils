@@ -8,7 +8,7 @@ import sys
 import struct
 
 
-def loadObjFile(filename):
+def convertToObj(filename):
 	print("# ", filename)
 	vertexNumber = 1
 	prevVertNum = 1
@@ -40,7 +40,7 @@ def loadObjFile(filename):
 
 
 def main(filename):
-	loadObjFile(filename)
+	convertToOBJ(filename)
 
 if __name__ == "__main__":
 	args = sys.argv
